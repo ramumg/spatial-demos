@@ -20,7 +20,7 @@ Everything stays in the database: Spatial Studio writes route geometry, drive ti
 database/   tables, spatial indexes, sample data, views
 sql/        the spatial SQL and PL/SQL shown in the talk, one file per page
 apex/       the APEX application export (f103.sql) and import notes
-docs/       slides with speaker notes, and the demo run sheet
+docs/       the demo run sheet
 ```
 
 ## Requirements
@@ -46,7 +46,7 @@ docs/       slides with speaker notes, and the demo run sheet
 
 ## Running the demo
 
-See [docs/demo-run-sheet.md](docs/demo-run-sheet.md) for the click-by-click flow, what to say, and what to show in Page Designer. The slides are in `docs/`, with a full speaker script in the notes.
+See [docs/demo-run-sheet.md](docs/demo-run-sheet.md) for the click-by-click flow, what to say, and what to show in Page Designer.
 
 ## Security notes
 
