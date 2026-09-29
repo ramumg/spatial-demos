@@ -17,7 +17,7 @@ The pattern every time: show the page, run one action, then open it in Page Desi
 
 | After slide | App page | Click and show | Say | Page Designer: point at |
 | --- | --- | --- | --- | --- |
-| 7 | Home, Locations Map (p. 2) | Menu matches the 5 steps on slide 7. Toggle the Density (Heat Map) layer, click a point. | "Every page reads the same tables." | Map region → Layers: Locations, Density (Heat Map), Geocoded Locations. |
+| 7 | Home, Locations Map (p. 2) | Menu matches the 5 steps on slide 7. Point out the four site colors in the legend, zoom into a city, click a point. | "Every page reads the same tables." | Map region → Layers: one per site type (Distribution Centers, Service Centers, Branches, Clients) plus Geocoded Locations. |
 | 8–9 | Geocoding (p. 3) | Enter Paseo de la Reforma 222, Ciudad de México, México → Geocode. Go back to Home to show the new point. | "Text in, geometry out, in one PL/SQL call." | Process *Save Geocoding Request* ([sql/01](../sql/01_geocode_address.sql)). |
 | 10 | Near Me (p. 4), Regional Coverage (p. 5) | Pick an origin, change the radius. Show *Nearest 3 Hubs*. Then the coverage map and summary. | "Near, nearest, inside: three operators." | [sql/02](../sql/02_near_me.sql), [sql/03](../sql/03_coverage.sql). |
 | 11 | Coverage Gaps (p. 10) | KPI cards, then *Sites Outside Coverage*. | Carrasco ~1 km: extend. Rio 358 km, Guadalajara 459 km: new zones. Córdoba 640 km: strategic. | Cards and report source: distance to every zone, nearest wins, CASE gives the recommendation. |
