@@ -1,12 +1,19 @@
 # APEX application
 
-Place the application export here as `f103.sql` (Location Intelligence LATAM).
+The Location Intelligence LATAM application export is provided as a split export in
+[`location-intelligence-latam-apex-103.zip`](location-intelligence-latam-apex-103.zip).
+The archive contains the `f103/` application directory and its component SQL files; it
+does not contain a single-file `f103.sql` export.
 
 ## Import it
 
-1. In your workspace, go to **App Builder → Import**, choose `f103.sql`, and install it.
-2. Use the schema where you ran the scripts in `database/`.
-3. Run the app. The Distribution Routes map stays blank until you add your own Spatial Studio project (below).
+1. Download the ZIP above. In your APEX workspace, go to **App Builder → Import**, upload
+   the ZIP, and install the application. Alternatively, extract the archive and run
+   `@f103/install.sql` from SQLcl while connected to the parsing schema.
+2. First create the database objects described in [`../database/`](../database/) in the
+   schema you will use for the application.
+3. Run the app. The Distribution Routes map stays blank until you add your own Spatial
+   Studio project (below).
 
 ## Connect the Spatial Studio map (Page 6, Distribution Routes)
 
